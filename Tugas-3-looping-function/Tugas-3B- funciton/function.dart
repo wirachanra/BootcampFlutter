@@ -20,7 +20,7 @@ void main() {
 
   print('---------- Soal 4 ----------');
   int hasilFaktor = faktorial(6);
-  print("6! = $hasilFaktor");
+  print("$hasilFaktor");
   print('');
 }
 
