@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sanberappflutter/tugas/tugas9/Telegram.dart';
+// import 'package:sanberappflutter/tugas/tugas9/Telegram.dart';
+import 'package:sanberappflutter/tugas/Tugas10/HomeScreen.dart';
+import 'package:sanberappflutter/tugas/Tugas10/LoginScreen.dart';
+// import 'package:sanberappflutter/tugas/Tugas10/LoginScreen.dart';
+// import 'package:sanberappflutter/tugas/Tugas10/LoginScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +36,8 @@ class MyApp extends StatelessWidget {
           // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           // useMaterial3: true,
           primarySwatch: Colors.blue),
-      home: Telegram(),
+      // home: Telegram(),
+      home: (const HomeScreen()),
     );
   }
 }
